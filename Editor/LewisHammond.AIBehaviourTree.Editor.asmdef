@@ -1,5 +1,5 @@
 {
-    "name": "com.LewisHammond.AIBehaviourTree.Editor",
+    "name": "LewisHammond.AIBehaviourTree.Editor",
     "rootNamespace": "",
     "references": [
         "GUID:e1e5a9b1afd74244092e3e0d3863b849"

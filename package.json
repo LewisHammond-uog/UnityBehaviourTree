@@ -1,12 +1,13 @@
 {
     "name": "com.lewishammond.aibehaviourtree",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "displayName": "AI Behaviour Tree",
-    "description": "Package for Creating Ai Behaviour Trees",
+    "description": "Package for Creating AI Behaviour Trees",
     "unity": "2021.1",
     "unityRelease": "12f1",
     "dependencies": {
-      "com.unity.modules.uielements" : "1.0.0"
+      "com.unity.modules.uielements": "1.0.0",
+      "com.unity.test-framework": "1.1.31"
     },
     "author": {
       "name": "Lewis Hammond"
