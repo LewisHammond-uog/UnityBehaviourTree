@@ -1,6 +1,5 @@
 using AI.BehaviourTrees;
-using AI.Shared;
-using AI.Shared.Blackboard;
+using AI.Blackboard.SelfBlackboard;
 using UnityEngine;
 
 namespace AI.BehaviourTree.BaseTypes.Nodes

@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEditor.UIElements;
 
+/*
 namespace AI.Shared.Blackboard
 {
     /// <summary>
@@ -39,4 +40,4 @@ namespace AI.Shared.Blackboard
             blackboard.Reset();
         }
     }
-}
+}*/

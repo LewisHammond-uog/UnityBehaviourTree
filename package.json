@@ -1,6 +1,6 @@
 {
     "name": "com.lewishammond.aibehaviourtree",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "displayName": "AI Behaviour Tree",
     "description": "Package for Creating Ai Behaviour Trees",
     "unity": "2021.1",

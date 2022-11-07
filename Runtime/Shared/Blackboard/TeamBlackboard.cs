@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
-
+/*
 namespace AI.Shared.Blackboard
 {
     public partial class TeamBlackboard
@@ -125,4 +125,4 @@ namespace AI.Shared.Blackboard
             entriesDictonary.Add(createdEntry.Key, createdEntry);
         }
     }
-}
+}*/

@@ -2,8 +2,7 @@
 using System.Linq;
 using AI.BehaviourTree.BaseTypes.Nodes;
 using AI.BehaviourTrees;
-using AI.Shared;
-using AI.Shared.Blackboard;
+using AI.Blackboard.SelfBlackboard;
 using UnityEditor;
 using UnityEngine;
 

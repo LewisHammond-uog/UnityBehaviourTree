@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 
+/*
 namespace AI.Shared.Blackboard
 {
     public partial class TeamBlackboard
@@ -65,4 +66,4 @@ namespace AI.Shared.Blackboard
             public float Confidence { get; private set; }
         }
     }
-}
+}*/
