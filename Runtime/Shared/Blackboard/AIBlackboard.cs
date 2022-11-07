@@ -1,14 +1,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace AI.Blackboard.SelfBlackboard
+namespace AI.Blackboard
 {
     [System.Serializable]
-    public class AgentBlackboard
+    public class AIBlackboard
     {
         private Dictionary<string, Entry> entries;
 
-        public AgentBlackboard()
+        public AIBlackboard()
         {
             entries = new Dictionary<string, Entry>();
         }
@@ -53,11 +53,21 @@ namespace AI.Blackboard.SelfBlackboard
             return true;
         }
 
+        /// <summary>
+        /// Check if the blackboard contains a particular value
+        /// </summary>
+        /// <param name="name"></param>
+        /// <returns></returns>
         public bool ContainsValue(string name)
         {
             return entries.ContainsKey(name);
         }
 
+        /// <summary>
+        /// Try removing a value from the blackboard
+        /// </summary>
+        /// <param name="name"></param>
+        /// <returns></returns>
         public bool TryRemoveValue(string name)
         {
             if (!entries.ContainsKey(name))

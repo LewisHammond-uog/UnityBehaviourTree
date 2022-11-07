@@ -2,7 +2,7 @@
 using System.Linq;
 using AI.BehaviourTree.BaseTypes.Nodes;
 using AI.BehaviourTrees;
-using AI.Blackboard.SelfBlackboard;
+using AI.Blackboard;
 using UnityEditor;
 using UnityEngine;
 
@@ -15,7 +15,7 @@ namespace AI.BehaviourTree.BaseTypes
         private BTAgent owner;
         
         //Blackboard used for this tree instance
-        public AgentBlackboard selfBlackboard;
+        public AIBlackboard selfBlackboard;
         
         public RootNode rootNode;
         public NodeStatus treeState;
@@ -35,7 +35,7 @@ namespace AI.BehaviourTree.BaseTypes
             nodes = new List<Node>();
             
             //Create a blackboard and set it in the child nodes
-            selfBlackboard = new AgentBlackboard();
+            selfBlackboard = new AIBlackboard();
             TraverseChildNodes(rootNode, node => { node.AgentBlackboard = selfBlackboard; });
         }
         
@@ -74,7 +74,7 @@ namespace AI.BehaviourTree.BaseTypes
             //Traverse the tree to find all of the children of the root node and add to the list of nodes
             TraverseChildNodes(tree.rootNode, (n) =>{ tree.AllTreeNodes.Add(n);});
             
-            selfBlackboard = new AgentBlackboard();
+            selfBlackboard = new AIBlackboard();
 
             return tree;
         }

@@ -8,13 +8,13 @@ namespace AI.Blackboard.SelfBlackboard.Tests
 {
 	public class AgentBlackboardTests
 	{
-		private AgentBlackboard blackboard;
+		private AIBlackboard blackboard;
 
 		[SetUp]
 		public void Setup()
 		{
 			//Create a new blackboard every time
-			blackboard = new AgentBlackboard();
+			blackboard = new AIBlackboard();
 			Assert.NotNull(blackboard);
 		}
 
