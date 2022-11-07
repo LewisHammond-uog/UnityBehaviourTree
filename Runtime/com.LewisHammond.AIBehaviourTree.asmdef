@@ -1,3 +1,14 @@
 {
-	"name": "com.LewisHammond.AIB"
+    "name": "com.LewisHammond.AIBehaviourTree",
+    "rootNamespace": "",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }
