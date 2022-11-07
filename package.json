@@ -6,6 +6,7 @@
     "unity": "2021.1",
     "unityRelease": "12f1",
     "dependencies": {
+      "com.unity.modules.uielements" : "1.0.0"
     },
     "author": {
       "name": "Lewis Hammond"
