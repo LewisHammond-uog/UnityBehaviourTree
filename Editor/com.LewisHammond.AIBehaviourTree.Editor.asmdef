@@ -1,0 +1,18 @@
+{
+    "name": "com.LewisHammond.AIBehaviourTree.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:e1e5a9b1afd74244092e3e0d3863b849"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
