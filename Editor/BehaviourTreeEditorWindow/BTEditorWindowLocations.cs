@@ -2,6 +2,6 @@
 {
     public struct BTEditorWindowLocations
     {
-        public static string styleSheetLocation = "Assets/Scripts/AI/BehaviourTreeEditorWindow/StyleSheets/";
+        public static string styleSheetLocation = "Packages/com.lewishammond.aibehaviourtree/Editor/BehaviourTreeEditorWindow/StyleSheets/";
     }
 }
