@@ -1,4 +1,4 @@
-namespace AI.BehaviourTree.BaseTypes.Nodes
+namespace BT.AI.BehaviourTree.BaseTypes.Nodes
 {
     /// <summary>
     /// Parallel Node - executes all of it's children in the same frame

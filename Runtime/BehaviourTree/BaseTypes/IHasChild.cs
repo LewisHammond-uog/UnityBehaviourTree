@@ -1,6 +1,6 @@
-using AI.BehaviourTree.BaseTypes.Nodes;
+using BT.AI.BehaviourTree.BaseTypes.Nodes;
 
-namespace AI.BehaviourTree.BaseTypes
+namespace BT.AI.BehaviourTree.BaseTypes
 {
     public interface IHasChild
     {

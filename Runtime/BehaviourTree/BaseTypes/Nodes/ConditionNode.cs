@@ -1,4 +1,4 @@
-﻿namespace AI.BehaviourTree.BaseTypes.Nodes
+﻿namespace BT.AI.BehaviourTree.BaseTypes.Nodes
 {
     /// <summary>
     /// A node that tests if a condition or conditions are true

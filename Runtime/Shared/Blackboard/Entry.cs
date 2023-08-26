@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace AI.Blackboard
+namespace BT.AI.Blackboard
 {
 	internal class Entry
 	{

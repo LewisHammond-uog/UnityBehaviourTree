@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace AI.BehaviourTree.BaseTypes.Nodes
+namespace BT.AI.BehaviourTree.BaseTypes.Nodes
 {
     public class RootNode : Node, IHasChild
     {

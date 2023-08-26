@@ -1,8 +1,8 @@
-using AI.BehaviourTrees;
-using AI.Blackboard;
+using BT.AI.BehaviourTrees;
+using BT.AI.Blackboard;
 using UnityEngine;
 
-namespace AI.BehaviourTree.BaseTypes.Nodes
+namespace BT.AI.BehaviourTree.BaseTypes.Nodes
 {
     public abstract class Node : ScriptableObject
     {

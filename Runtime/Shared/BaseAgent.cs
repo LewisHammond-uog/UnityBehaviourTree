@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.AI;
 using Random = UnityEngine.Random;
 
-namespace AI
+namespace BT.AI
 {
     /// <summary>
     /// Base class of agent
@@ -15,13 +15,13 @@ namespace AI
         //List of all AI spawned
         private static List<BaseAgent> allAgents = new List<BaseAgent>();
         
-        private void Start()
+        protected virtual void Start()
         {
             //Add to the AI List
             allAgents.Add(this);
         }
 
-        private void OnDestroy()
+        protected virtual void OnDestroy()
         {
             //Remove this AI
             allAgents.Remove(this);

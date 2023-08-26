@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace AI.BehaviourTree.BaseTypes.Nodes
+namespace BT.AI.BehaviourTree.BaseTypes.Nodes
 {
     /// <summary>
     /// Random Choice node that randomly selects a child to execute on entry

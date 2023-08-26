@@ -2,12 +2,12 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using AI.BehaviourTree.BaseTypes.Nodes;
+using BT.AI.BehaviourTree.BaseTypes.Nodes;
 using UnityEditor;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.UIElements;
-using Node = AI.BehaviourTree.BaseTypes.Nodes.Node;
+using Node = BT.AI.BehaviourTree.BaseTypes.Nodes.Node;
 
 public class NodeSearchWindow : ScriptableObject, ISearchWindowProvider
 {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace AI.BehaviourTree.BaseTypes.Nodes
+namespace BT.AI.BehaviourTree.BaseTypes.Nodes
 {
     public abstract class CompositeNode : Node, IHasChildren
     {

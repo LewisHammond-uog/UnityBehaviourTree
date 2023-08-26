@@ -1,7 +1,7 @@
 #if UNITY_EDITOR
 using System;
-using AI.BehaviourTree.BaseTypes;
-using AI.BehaviourTrees;
+using BT.AI.BehaviourTree.BaseTypes;
+using BT.AI.BehaviourTrees;
 using BehaviourTreeEditorWindow;
 using UnityEditor;
 using UnityEngine;

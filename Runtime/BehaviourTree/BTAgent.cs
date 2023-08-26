@@ -2,19 +2,19 @@
 using UnityEngine;
 using UnityEngine.AI;
 
-namespace AI.BehaviourTrees
+namespace BT.AI.BehaviourTrees
 {
     public class BTAgent : AI.BaseAgent 
     {
         [SerializeField] private BehaviourTree.BaseTypes.BehaviourTree treePrefab;
         public BehaviourTree.BaseTypes.BehaviourTree RunningTree { get; private set; }
 
-        private void Start()
+        protected override void Start()
         {
             InitTree();
         }
 
-        private void Update()
+        protected virtual void Update()
         {
             if (RunningTree)
             {
@@ -38,7 +38,7 @@ namespace AI.BehaviourTrees
         /// <summary>
         /// Disable this agent
         /// </summary>
-        public void DisableAgent()
+        public virtual void DisableAgent()
         {
             //navComponent.Stop();
             this.enabled = false;

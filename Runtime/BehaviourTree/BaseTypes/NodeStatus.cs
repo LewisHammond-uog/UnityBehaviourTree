@@ -1,4 +1,4 @@
-﻿namespace AI.BehaviourTree.BaseTypes
+﻿namespace BT.AI.BehaviourTree.BaseTypes
 {
     public enum NodeStatus
     {

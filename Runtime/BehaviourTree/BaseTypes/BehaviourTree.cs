@@ -1,12 +1,12 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using AI.BehaviourTree.BaseTypes.Nodes;
-using AI.BehaviourTrees;
-using AI.Blackboard;
+using BT.AI.BehaviourTree.BaseTypes.Nodes;
+using BT.AI.BehaviourTrees;
+using BT.AI.Blackboard;
 using UnityEditor;
 using UnityEngine;
 
-namespace AI.BehaviourTree.BaseTypes
+namespace BT.AI.BehaviourTree.BaseTypes
 {
     [CreateAssetMenu(menuName = "AI/Behaviour Tree")]
     public class BehaviourTree : ScriptableObject
@@ -27,7 +27,7 @@ namespace AI.BehaviourTree.BaseTypes
         {
             set => nodes = value;
             get => nodes;
-        } 
+        }
 
         public BehaviourTree()
         {

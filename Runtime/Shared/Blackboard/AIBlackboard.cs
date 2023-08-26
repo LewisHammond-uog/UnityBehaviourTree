@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace AI.Blackboard
+namespace BT.AI.Blackboard
 {
     [System.Serializable]
     public class AIBlackboard

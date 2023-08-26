@@ -2,14 +2,14 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using AI.BehaviourTree.BaseTypes;
-using AI.BehaviourTree.BaseTypes.Nodes;
+using BT.AI.BehaviourTree.BaseTypes;
+using BT.AI.BehaviourTree.BaseTypes.Nodes;
 using BehaviourTreeEditorWindow;
 using UnityEditor;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.UIElements;
-using BTNode = AI.BehaviourTree.BaseTypes.Nodes.Node;
+using BTNode = BT.AI.BehaviourTree.BaseTypes.Nodes.Node;
 using GraphNode = UnityEditor.Experimental.GraphView.Node;
 
 public class BehaviourTreeView : GraphView
