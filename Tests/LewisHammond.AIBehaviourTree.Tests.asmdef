@@ -2,9 +2,9 @@
     "name": "LewisHammond.AIBehaviourTree.Tests",
     "rootNamespace": "",
     "references": [
-        "GUID:27619889b8ba8c24980f49ee34dbb44a",
-        "GUID:0acc523941302664db1f4e527237feb3",
-        "GUID:e1e5a9b1afd74244092e3e0d3863b849"
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner",
+        "LewisHammond.AIBehaviourTree"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
@@ -15,7 +15,6 @@
     ],
     "autoReferenced": true,
     "defineConstraints": [
-        "UNITY_INCLUDE_TESTS",
         "UNITY_INCLUDE_TESTS"
     ],
     "versionDefines": [],
