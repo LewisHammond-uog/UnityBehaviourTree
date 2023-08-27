@@ -11,6 +11,7 @@ namespace BT.AI.BehaviourTrees
 
         protected override void Start()
         {
+            base.Start();
             InitTree();
         }
 
